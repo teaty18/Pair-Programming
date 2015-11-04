@@ -1,0 +1,137 @@
+body {
+    background-color: beige
+}
+
+.clickspot{
+    text-decoration:underline;
+    color:blue;
+    cursor:pointer
+}
+.status{
+    background-color:firebrick
+}
+.error{
+    color:Red;
+    background-color:Yellow
+}
+
+.menuitem {
+    text-decoration:none;
+    color:white;
+    cursor:pointer;
+    background-color:firebrick;
+    margin-bottom: 5px;
+    padding: 2px
+}
+.menuitem:hover{
+    text-decoration:none;
+    cursor:pointer;
+    font-weight:bold;
+    opacity: 0.75;
+    color: white
+}
+
+#pageheader
+{
+    height: 1in;
+    background-color: firebrick;
+    font-size: large;
+    text-align: center;
+    font-family: comic sans ms, serif;
+    border-radius: 15px;
+    color: white
+}
+
+#mainnav{
+    width:2in;
+    vertical-align:top
+}
+
+
+#content {
+    width:10in;
+    vertical-align:top
+
+}
+
+.reportTable 
+{
+    border:1px;
+    <!--border-collapse:collapse;-->
+    border: white
+}
+
+.reportTable .header
+{
+    background-color: #CC6600;
+    text-transform: uppercase;
+    color: White;
+}
+
+.reportTable tr:hover
+{
+    font-weight: bolder;
+    cursor: default;
+}
+
+.reportTable th
+{
+    background-color: firebrick;
+}
+
+.reportTable th:hover
+{
+    cursor: default;
+}
+
+.reportTable tr:nth-child(even) {
+    background: #CCC
+}
+
+.reportTable tr:nth-child(odd) {
+    background: #FFF
+}
+
+.tableForm .label
+{
+    background-color: #CC6600;
+    text-transform:capitalize;
+    color: White;
+    text-align:right;
+}
+
+.tableForm .field
+{
+    background-color: #FFAE35;
+}
+.popupMenu
+{
+    background-color: #DC7518;
+    position: absolute;
+    display:none;
+    width: auto;
+}
+
+.popupMenu div
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+.popupMenu div:hover
+{
+    color: #FFFFFF;
+    text-decoration: underline;
+    background-color: #CC6600;
+}
+
+.popupForm
+{
+    background-color: #DC7518;
+    position: absolute;
+    display:none;
+    width: auto;
+}
+.reportTable tbody {
+    font-family: comic sans ms;
+}
